@@ -1,0 +1,17 @@
+college { 
+	color: white; 
+	background-color : gray; 
+	width: 100%; 
+} 
+heading { 
+	color: red; 
+	font-size : 40px; 
+	background-color : powderblue; 
+} 
+heading, title, hod, branchcode { 
+	display : block; 
+} 
+title { 
+	font-size : 25px; 
+	font-weight : bold; 
+} 

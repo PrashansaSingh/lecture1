@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="prash.css"?> 
+<!DOCTYPE note
+[
+<!ELEMENT college (title,hod,branchcode)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT hod (#PCDATA)>
+<!ELEMENT branchcode (#PCDATA)>
+]>
+<college> 
+	<heading>Welcome To AITH </heading> 
+	<branch> 
+		<title>Branch Name -: Computer Science </title> 
+		<hod>Hod -: Mr. Rohit Sharma</hod> 
+		<branchcode>Branchcode-: 10</branchcode> 
+	</branch> 
+	<branch> 
+		<title>Branch Name -: Information Technology </title> 
+		<hod>Hod -: Mr. Kapil Pandey</hod> 
+		<branchcode>Branchcode-: 13</branchcode> 
+	</branch> 
+	<branch> 
+		<title>Branch Name -: Electronics Engineering </title> 
+		<hod>Hod -:Dr.Shweta Tripathi</hod> 
+		<branchcode>Branchcode-: 30</branchcode> 
+	</branch> 
+	<branch> 
+		<title>Branch Name -: chemical Engineering </title> 
+		<hod>Hod -:Dr.Ashutosh Mishra</hod> 
+		<branchcode>Branchcode-: 51</branchcode> 
+	</branch> 
+	<branch> 
+		<title>Branch Name -: Biotech Engineering </title> 
+		<hod>Hod -:Dr.Manish Singh Rajput</hod> 
+		<branchcode>Branchcode-: 54</branchcode> 
+	</branch> 
+</college> 
